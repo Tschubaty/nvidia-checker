@@ -1,8 +1,10 @@
 import requests
 import hashlib
+import os
 
 # Telegram API Credentials
-BOT_TOKEN = "7952329988:AAFjIkeImVKVE9V6QfbWX-lPRDZ8U_VpG5w"
+
+BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 CHAT_ID = "674907506"
 
 # URL to check
