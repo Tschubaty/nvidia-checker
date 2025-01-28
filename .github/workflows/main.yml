@@ -1,5 +1,5 @@
 name: NVIDIA RTX 5090 Checker
-
+# NVIDIA RTX 5090 Checker - Fix for GitHub cron scheduling
 on:
   schedule:
     - cron: '*/5 * * * *'  # Alle 5 Minuten ausführen
