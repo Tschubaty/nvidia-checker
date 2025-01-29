@@ -2,8 +2,8 @@
 name: NVIDIA RTX 5090 Checker
 
 on:
-  schedule:
-    - cron: '*/30 * * * *'  # Runs every 5 minutes
+  #schedule:
+  #  - cron: '*/30 * * * *'  # Runs every 5 minutes
   workflow_dispatch:  # Allows manual execution
 
 jobs:
